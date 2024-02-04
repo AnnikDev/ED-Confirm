@@ -1,0 +1,297 @@
+body {
+    background-color: #2F372D;
+}
+
+.container {
+    width: 950px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#qr {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+}
+
+.ed-logo {
+    width: 821px;
+    height: 197px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 170px;
+    top: 705px;
+    right: 395px;
+}
+
+h2 {
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    right: 190px;
+
+}
+
+
+h1 {
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+    left: 380px;
+
+}
+
+.dear-guest {
+    width: 625px;
+    height: 195px;
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 210px;
+    right: 18px;
+}
+
+#dear-guest{
+    position: absolute;
+    top: 0;
+    right: 180px;
+}
+
+.dear-guest span {
+    width: 625px;
+    position: absolute;
+    top: 125px;
+    right: 0px;
+    font-weight: 700;
+    color: #2F372D;
+    text-align: center;
+}
+
+#restaurant-name{
+    position: absolute;
+    top: 85px;
+    right: 215px;
+}
+
+.reservation-info {
+    width: 625px;
+    height: 232px;
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 380px;
+    right: 3px;
+    margin-right: 20px;
+}
+
+.input {
+    line-height: 40px;
+}
+
+.input-info {
+    text-align: end;
+    line-height: 40px;
+}
+
+.important-information {
+    width: 612px;
+    height: 172px;
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 670px;
+    right: 3px;
+    list-style: circle;
+}
+
+ul.important-information {
+    padding: 2px
+}
+
+h5 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.full-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #2F372D;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: 840px;
+    right: 35px;
+    width: 615px;
+    line-height: 40px;
+}
+
+.address-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    width: 615px;
+}
+
+.address-input-info {
+    text-align: end;
+}
+
+#map {
+    text-decoration: none;
+    color: #2F372D;
+    cursor: pointer;
+}
+
+#map:hover {
+    color: #859780;
+}
+
+.full-address img {
+    width: 100%;
+    height: 300px;
+}
+
+.cancellation {
+    background-color: #F7E6C4;
+    width: 910px;
+    height: 145px;
+    flex-shrink: 0;
+    color: #2F372D;
+    text-align: center;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.cancellation-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.question {
+    background-color: #F7E6C4;
+    width: 910px;
+    height: 145px;
+    flex-shrink: 0;
+    color: #2F372D;
+    text-align: center;
+    font-family: Noto Serif Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+}
+
+.question a{
+    text-decoration: none;
+    color: #2F372D;
+    cursor: pointer;
+}
+
+.question a:hover{
+    color: #859780;
+}
+
+.question-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.design-cake {
+    width: 600px;
+    height: 800px;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 50px;
+    right: 740px;
+    z-index: -1;
+
+}
+
+.design-hat {
+    width: 1000px;
+    height: 900px;
+    transform: rotate(-30deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: -200px;
+    left: 740px;
+    z-index: -1;
+}
+
+.design-fork {
+    width: 300px;
+    height: 900px;
+    transform: rotate(-25deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 1000px;
+    left: 1074px;
+    z-index: -1;
+}
+
+.design-dish {
+    width: 1000px;
+    height: 900px;
+    transform: rotate(-25deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 1080px;
+    right: 740px;
+    z-index: -1;
+}
+
+.design-bottle {
+    width: 800px;
+    height: 800px;
+    transform: rotate(20deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    z-index: -1;
+}
